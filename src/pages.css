@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: Lato, sans-serif;
+    --background: '#F5F4F0';
+    --border: '#d9d9d9';
+    --text-primary: '#1b1b1b';
+    --text-secondary: '#333333';
+    --text-tertiary: '#696969';
+    --text-headline: '#e1624f';
+    --h1-size: 36px;
+    --h1-weight: bold;
+    --h2-size: 32px;
+    --h2-weight: bold;
+    --h3-size: 28px;
+    --h3-weight: bold;
+    --headline-size: 16px;
+    --headline-weight: bold;
+    --paragraph-size: 16px;
+    --paragraph-weight: 400;
+    --subtitle-size: 16px;
+    --subtitle-style: italic
+}
