@@ -46,15 +46,6 @@ Acesse: https://user-thiagom.github.io/local-turistico/
 - **CSS3** - Estilização e layout
 - **Google Fonts** - Tipografia (fonte Lato)
 
-## 💡 Dicas de Aprendizado
-
-Este é um ótimo projeto para praticar:
-- Seletores CSS
-- Flexbox e Grid
-- Media queries para responsividade
-- Boas práticas de nomenclatura
-- Organização de arquivos
-
 ---
 
 Desenvolvido como exercício de prática! 🎓
