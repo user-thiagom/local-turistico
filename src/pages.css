@@ -31,12 +31,19 @@ body{
 
 #page{
     box-sizing: border-box;
-    margin: 48px auto;
+    margin: 65px auto 65px;
     width: 1120px;
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 
+#page hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
+#page > hr + p{
+    text-align: center;
+}
 
 .headline{
     color: var(--text-headline);
@@ -54,4 +61,109 @@ h1{
 
 img{
     max-width: 100%;
+    height: auto;
+    border-radius: 28px;
+}
+
+#description-image{
+   margin-top: 40px;
+}
+
+#description-image img{
+    width: 100%;
+    max-height: 660px;
+}
+
+#description-image p{
+    font-style: italic;
+    margin-top: 24px;
+}
+
+.description{
+    color: var(--text-secondary);
+    font-size: var(--subtitle-size);
+    font-weight: var(--paragraph-weight);
+}
+
+main{
+    margin-top: 40px;
+}
+
+main > * + *{
+    margin-top: 64px;
+}
+
+h2{
+    color: var(--text-primary);
+    font-size: var(--h2-size);
+    font-weight: var(--h2-weight);
+}
+
+#tittle-list > h2 + p{
+    margin-top: 8px;
+}
+
+#list > div ~ div{
+margin-top: 48px;
+}
+
+.card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card h3{
+    margin-bottom: 4px;
+}
+
+.card > p + p{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card ul{
+    padding-left: 20px;
+}
+
+.card li{
+    font-weight: bold;
+}
+
+h3{
+    font-size: var(--h3-size);
+    font-weight: var(--h3-weight);
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 48px;
+    color: var(--text-headline);
+    font-size: var(--headline-size);
+    font-weight: var(--headline-weight);
+}
+
+.blue{
+    color: rgb(33, 74, 241);
+}
+
+.yellow{
+    color: rgb(196, 203, 0);
+}
+
+.orange{
+    color: orangered;
+}
+
+.green{
+    color: green;
+}
+
+.purple{
+    color: rgb(147, 38, 147);
+}
+
+.pink{
+    color: rgb(247, 152, 198);
 }
