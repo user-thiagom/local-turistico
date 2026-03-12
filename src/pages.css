@@ -5,12 +5,12 @@
 
 :root{
     font-family: Lato, sans-serif;
-    --background: '#F5F4F0';
-    --border: '#d9d9d9';
-    --text-primary: '#1b1b1b';
-    --text-secondary: '#333333';
-    --text-tertiary: '#696969';
-    --text-headline: '#e1624f';
+    --background: #F5F4F0;
+    --border: #d9d9d9;
+    --text-primary: #1b1b1b;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #e1624f;
     --h1-size: 36px;
     --h1-weight: bold;
     --h2-size: 32px;
@@ -23,4 +23,35 @@
     --paragraph-weight: 400;
     --subtitle-size: 16px;
     --subtitle-style: italic
+}
+
+body{
+    background-color: var(--background);
+}
+
+#page{
+    box-sizing: border-box;
+    margin: 48px auto;
+    width: 1120px;
+    border: 1px solid;
+}
+
+
+
+.headline{
+    color: var(--text-headline);
+    text-transform: uppercase;
+    font-size: var(--headline-size);
+    font-weight: var(--headline-weight);
+    padding-bottom: 8px;
+}
+
+h1{
+    color: var(--text-primary);
+    font-size: var(--h1-size);
+    font-weight: var(--h1-weight);
+}
+
+img{
+    max-width: 100%;
 }
